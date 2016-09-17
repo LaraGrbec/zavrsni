@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/zubi">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:onClick="nicanjezuba"
+        android:textColor="#0400ff"
+        android:layout_margin="20dp"
+        android:text="Nicanje zubi"
+        android:id="@+id/btnNicanje" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:textSize="25dp"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:onClick="OCproblemi"
+        android:textColor="#16742f"
+        android:layout_margin="20dp"
+        android:text="Problemi i bolesti"
+        android:id="@+id/btnProblemi" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:textSize="25dp"
+        android:textColor="#e30909"
+
+        android:onClick="prevencija"
+        android:text="Prevencija"
+        android:id="@+id/btnPrevencija" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:textColor="#de4904"
+        android:textSize="25dp"
+        android:onClick="strucnjaku"
+
+        android:text="O stručnjaku"
+        android:id="@+id/btnStrucnjak" />
+</LinearLayout>

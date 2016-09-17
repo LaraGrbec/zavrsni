@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_weight="1"
+
+    android:background="@drawable/str2"
+    android:layout_height="match_parent">
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+
+            android:id="@+id/zub15"
+            android:layout_gravity="center_horizontal|top"
+            android:checked="false" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="60dp"
+            android:layout_gravity="center_horizontal|bottom"
+            android:checked="false"
+            android:id="@+id/zub6" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="120dp"
+
+            android:layout_marginBottom="60dp"
+            android:id="@+id/zub5"
+            android:layout_gravity="left|bottom"
+            android:checked="false" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_marginRight="100dp"
+            android:layout_marginBottom="70dp"
+            android:id="@+id/zub7"
+            android:layout_gravity="right|bottom"
+            android:checked="false" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="85dp"
+
+            android:layout_marginBottom="70dp"
+            android:id="@+id/zub4"
+            android:layout_gravity="left|bottom"
+            android:checked="false" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="60dp"
+
+
+            android:layout_marginBottom="90dp"
+            android:id="@+id/zub3"
+            android:layout_gravity="left|bottom"
+            android:checked="false" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_marginRight="80dp"
+            android:layout_marginBottom="90dp"
+            android:id="@+id/zub8"
+            android:layout_gravity="right|bottom"
+            android:checked="false" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="50dp"
+            android:layout_marginBottom="140dp"
+
+            android:id="@+id/zub9"
+            android:layout_gravity="right|bottom"
+            android:checked="false" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+
+            android:layout_marginRight="30dp"
+            android:id="@+id/zub10"
+            android:layout_gravity="right|center_vertical"
+            android:checked="false" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_marginBottom="50dp"
+            android:layout_marginRight="30dp"
+            android:id="@+id/zub11"
+            android:layout_gravity="right|center_vertical"
+            android:checked="false" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="110dp"
+
+            android:layout_marginRight="40dp"
+            android:id="@+id/zub12"
+            android:layout_gravity="right|center_vertical"
+            android:checked="false" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="60dp"
+
+            android:layout_marginRight="60dp"
+            android:id="@+id/zub13"
+            android:layout_gravity="right|top"
+            android:checked="false" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="90dp"
+
+            android:id="@+id/zub14"
+            android:layout_gravity="right|top"
+            android:checked="false" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+
+            android:layout_marginBottom="140dp"
+            android:id="@+id/zub2"
+            android:layout_gravity="left|bottom"
+            android:checked="false" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:id="@+id/zub1"
+            android:layout_gravity="left|center_vertical"
+            android:checked="false" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+
+            android:layout_marginTop="150dp"
+            android:id="@+id/zub20"
+            android:layout_gravity="left|top"
+            android:checked="false" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+
+            android:layout_marginTop="100dp"
+            android:id="@+id/zub19"
+            android:layout_gravity="left|top"
+            android:checked="false" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+
+            android:layout_marginTop="60dp"
+            android:id="@+id/zub18"
+            android:layout_gravity="left|top"
+            android:checked="false" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="80dp"
+
+            android:layout_marginTop="20dp"
+            android:id="@+id/zub17"
+            android:layout_gravity="left|top"
+            android:checked="false" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="25dp"
+
+            android:id="@+id/zub16"
+            android:layout_gravity="center_horizontal|top"
+            android:checked="false" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="DODATNO"
+            android:onClick="sljedeci"
+            android:textColor="#16742f"
+            android:id="@+id/dodatno"
+            android:layout_gravity="right|bottom" />
+
+
+
+        <Button
+            android:layout_width="64dp"
+            android:layout_height="34dp"
+            android:textColor="#16742f"
+            android:textStyle="bold"
+
+            android:text="+"
+            android:id="@+id/gumb"
+            android:layout_gravity="right|top" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:id="@+id/textView3"
+            android:layout_gravity="left|bottom" />
+
+
+    </FrameLayout>
+</LinearLayout>

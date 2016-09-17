@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/kid"
+    android:weightSum="1">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Unesite ime:"
+        android:textColor="#620449"
+        android:textStyle="bold"
+        android:id="@+id/unosime"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:layout_marginLeft="100dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text=""
+        android:textColor="#55033f"
+        android:textStyle="bold"
+        android:ems="10"
+        android:id="@+id/unosimee"
+        android:layout_gravity="center_horizontal" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Unesite prezime:"
+        android:textColor="#3c0437"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:layout_marginLeft="70dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#53044a"
+        android:inputType="textPersonName"
+        android:text=""
+        android:textStyle="bold"
+        android:ems="10"
+        android:id="@+id/unosprezime"
+        android:layout_gravity="center_horizontal" />
+
+    <TextView
+        android:layout_width="338dp"
+        android:layout_height="wrap_content"
+        android:text="Izaberite datum rođenja:"
+        android:textColor="#540544"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:gravity="center"
+ />
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="30dp"
+    android:weightSum="1">
+    <TextView
+        android:layout_width="107dp"
+        android:textColor="#540544"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="DAN"
+        android:id="@+id/dan"
+        android:layout_weight="0.32" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_marginRight="25dp"
+        android:textColor="#540544"
+        android:gravity="center"
+        android:layout_margin="-10dp"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="MJESEC"
+        android:id="@+id/mjesec"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.32" />
+
+    <TextView
+
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_marginBottom="-2sp"
+        android:textColor="#540544"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:gravity="clip_vertical"
+        android:layout_marginRight="20dp"
+        android:text="GODINA"
+        android:id="@+id/godina"
+        android:layout_gravity="right"
+        android:layout_weight="0.32" />
+
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="1">
+        <EditText
+            android:layout_width="100dp"
+            android:layout_height="80dp"
+            android:inputType="date"
+            android:ems="10"
+            android:id="@+id/tdan"
+            android:layout_weight="0.20" />
+        <EditText
+            android:layout_width="100dp"
+            android:layout_height="80dp"
+            android:inputType="date"
+            android:ems="10"
+            android:id="@+id/tmjesec"
+            android:layout_weight="0.20" />
+        <EditText
+            android:layout_width="100dp"
+            android:layout_height="80dp"
+            android:inputType="date"
+            android:ems="10"
+            android:id="@+id/tgodina"
+            android:layout_weight="0.20" />
+    </LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="Spremi"
+        android:onClick="idinaapk"
+        android:id="@+id/button"
+        android:layout_gravity="center_horizontal" />
+</LinearLayout>
+
+
+
+
